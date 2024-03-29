@@ -2,8 +2,25 @@
     .card{
         width: 600px;
         height: 1000px;
-        margin-top: 0;
-        margin-left: 140px;
-        padding: 80px;
+        margin-left: 70px;
+    }
+}
+
+@media(max-width: 1024px){
+    .card{
+        width: 500px;
+        height: 1900px;
+    }
+}
+
+@media(max-width: 375px){
+    .card{
+        margin-left: 120px;
+    }
+}
+
+@media(max-width: 320px){
+    .card{
+        margin-left: 170px;
     }
 }
