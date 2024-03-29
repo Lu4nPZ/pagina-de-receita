@@ -1,0 +1,178 @@
+body{
+    background-color: var(--Eggshell);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.card{
+    background-color: var(--White);
+    width: 740px;
+    height: 1700px;
+    border-radius: 20px;
+    padding: 41px;
+    margin-top: 1000px;
+}
+
+.card img{
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 29px;
+}
+
+.descricao h1{
+    font-family: var(--Young-Serif), sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.descricao p{
+    font-family: var(--Outfit), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.tempo-preparo{
+    background-color: var(--Rose-White);
+    height: 200px;
+    border-radius: 10px;
+    padding: 36px 28px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+
+.tempo-preparo h3{
+    font-family: var(--Outfit), sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 19px;
+    color: var(--Dark-Raspberry);
+}
+
+.tempo-preparo ul li{
+    font-family: var(--Outfit), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left: 9px;
+}
+
+.ingredientes{
+    list-style-position: inside;
+    margin-bottom: 35px;
+}
+
+.ingredientes h2{
+    font-family: var(--Young-Serif), sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--Nutmeg);
+    margin-bottom: 20px;
+}
+
+.ingredientes ul li{
+    font-family: var(--Outfit), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    padding-left: 9px;
+}
+
+.instrucoes{
+    list-style-position: inside;
+    list-style-type: var(--Young-Serif);
+    border-top: solid 2px var(--Light-Grey);
+    margin-bottom: 35px;
+}
+
+.instrucoes h2{
+    font-family: var(--Young-Serif), sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 25px 0 20px;
+    color: var(--Nutmeg);
+}
+
+.instrucoes ol li{
+    font-family: var(--Outfit), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-left: 9px;
+}
+
+.nutricao{
+    border-top: solid 2px var(--Light-Grey);
+}
+
+.nutricao h2{
+    font-family: var(--Young-Serif), sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 25px 0 20px;
+    color: var(--Nutmeg);
+}
+
+.nutricao .descricao{
+    font-family: var(--Outfit), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--);
+}
+
+.nutricao p{
+    font-family: var(--Outfit), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.calories{
+    display: flex;
+    margin-left: 30px;
+}
+
+.carbs{
+    display: flex;
+    margin-left: 30px;
+}
+
+.protein{
+    display: flex;
+    margin-left: 30px;
+}
+
+.fat{
+    display: flex;
+    margin-left: 30px;
+}
+
+.calories .numero{
+    font-weight: 800;
+    color: var(--Nutmeg);
+    margin-left: 250px;
+}
+
+.carbs .numero{
+    font-weight: 800;
+    color: var(--Nutmeg);
+    margin-left: 270px;
+}
+
+.protein .numero{
+    font-weight: 800;
+    color: var(--Nutmeg);
+    margin-left: 258px;
+}
+
+.fat .numero{
+    font-weight: 800;
+    color: var(--Nutmeg);
+    margin-left: 292px;
+}
